@@ -23,9 +23,9 @@ Iniciando a aplicação
 npm start
 ```
 
-A aplicação estará disponível na porta 3000.
-A aplicação possui somente a listagem de usuários, visto que esta foi a funcionalidade que foi automatizada.
-O banco da aplicação é em memoria, ou seja, ao reiniciar a aplicação os dados estarão em seu estado inicial.
+* A aplicação estará disponível na porta 3000.
+* A aplicação possui somente a listagem de usuários, visto que esta foi a funcionalidade que foi automatizada.
+* O banco da aplicação é em memoria, ou seja, ao reiniciar a aplicação os dados estarão em seu estado inicial.
 
 ## Testes Automatizados
 
