@@ -1,0 +1,17 @@
+.mb-6 {
+  margin-bottom: 60px;
+}
+
+body {
+  background-color: #89cff0;
+}
+
+.main-container {
+  border: 2px solid gray;
+  min-height: 600px;
+  background-color: white;
+}
+
+.hide {
+  display: none;
+}

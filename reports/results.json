@@ -1,0 +1,159 @@
+[
+  {
+    "elements": [
+      {
+        "id": "consultar-dados-de-usuários;consultar-dados-de-usuários-quando-houver-um-ou-mais-usuários",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Consultar dados de usuários quando houver um ou mais usuários",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Como um usuário administrador, eu efetuo login na aplicacao",
+            "result": {
+              "status": "passed",
+              "duration": 1197248191
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Users\\Gabriel\\Desktop\\testes-trabalho\\features\\steps_definitions\\view_users_steps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Eu vejo o titulo \"Listagem de usuários.\"",
+            "result": {
+              "status": "passed",
+              "duration": 145227724
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\Gabriel\\Desktop\\testes-trabalho\\features\\steps_definitions\\view_users_steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Eu vejo a listagem com os cabecalhos \"Nome\" \"E-mail\" \"Telefone\"",
+            "result": {
+              "status": "passed",
+              "duration": 219893175
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Gabriel\\Desktop\\testes-trabalho\\features\\steps_definitions\\view_users_steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Eu vejo \"3\" usuarios",
+            "result": {
+              "status": "passed",
+              "duration": 51389130
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Gabriel\\Desktop\\testes-trabalho\\features\\steps_definitions\\view_users_steps.js:20"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "consultar-dados-de-usuários;consultar-dados-de-usuários-quando-não-houver-usuários",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Consultar dados de usuários quando não houver usuários",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Como um usuário administrador, eu efetuo login na aplicacao",
+            "result": {
+              "status": "passed",
+              "duration": 182279172
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\Gabriel\\Desktop\\testes-trabalho\\features\\steps_definitions\\view_users_steps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Eu vejo o titulo \"Listagem de usuários.\"",
+            "result": {
+              "status": "passed",
+              "duration": 109365039
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\Gabriel\\Desktop\\testes-trabalho\\features\\steps_definitions\\view_users_steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Eu deleto todos os usuários",
+            "result": {
+              "status": "passed",
+              "duration": 221953833
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Gabriel\\Desktop\\testes-trabalho\\features\\steps_definitions\\view_users_steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Eu vejo a mensagem \"Não existe nenhum usuário cadastrado.\"",
+            "result": {
+              "status": "passed",
+              "duration": 105476071
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\Gabriel\\Desktop\\testes-trabalho\\features\\steps_definitions\\view_users_steps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Eu recrio todos os usuários",
+            "result": {
+              "status": "passed",
+              "duration": 219613951
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\Gabriel\\Desktop\\testes-trabalho\\features\\steps_definitions\\view_users_steps.js:32"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "consultar-dados-de-usuários",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Consultar dados de usuários",
+    "tags": [],
+    "uri": "C:\\Users\\Gabriel\\Desktop\\testes-trabalho\\features\\viewUsers.feature"
+  }
+]
