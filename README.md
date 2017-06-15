@@ -33,8 +33,8 @@ Na implementação dos testes foi utilizado alguns princípios dos conceitos de 
 
 ## Cenários de Testes
 
-Os cenários de testes encontram-se dentro da pasta features, nos arquivos com a extensão *.feature.
-O motivo da documentação dos cenários estarem nesses arquivos e no formato específico do cucumber é para que não seja necessário ter esta documentação duplicada, visto que estes mesmo cenários podem ser usados para testes manuais.
+* Os cenários de testes encontram-se dentro da pasta features, nos arquivos com a extensão *.feature.
+* O motivo da documentação dos cenários estarem nesses arquivos e no formato específico do cucumber é para que não seja necessário ter esta documentação duplicada, visto que estes mesmo cenários podem ser usados para testes manuais.
 
 ### Funcionalidades
 * [F1 - Cadastrar Usuário](features/createUsers.feature)
