@@ -42,6 +42,25 @@ Na implementação dos testes foi utilizado alguns princípios dos conceitos de 
 * [F6 - Consultar dados de usuários](features/viewUsers.feature)
 * [F9 - Sair do sistema](features/exit.feature)
 
+### Rodando os testes para a feature "viewUsers"
+
+Você deve abrir três terminais a partir do local onde a pasta do projeto está, e então rodar os seguintes comandos um em cada terminal.
+
+Iniciando a aplicação
+```
+npm start
+```
+
+Iniciando o selenium webdriver
+```
+npm run webdriver
+```
+
+Rodando os testes
+```
+npm run e2e
+```
+
 ### Tecnologias Utilizadas
 
 * [Protractor](http://www.protractortest.org/#/)
