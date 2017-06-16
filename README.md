@@ -47,8 +47,5 @@ Na implementação dos testes foi utilizado alguns princípios dos conceitos de 
 * [Protractor](http://www.protractortest.org/#/)
 * [Cucumber](https://cucumber.io/)
 
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+## Autor
+Paulo Gabriel Souza Poffal
