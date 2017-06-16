@@ -44,7 +44,7 @@ Na implementação dos testes foi utilizado alguns princípios dos conceitos de 
 
 ### Rodando os testes para a feature "viewUsers"
 
-Você deve abrir três terminais a partir do local onde a pasta do projeto está, e então rodar os seguintes comandos um em cada terminal.
+Você deve abrir três terminais a partir do local onde encontra-se a pasta do projeto, e então rodar os seguintes comandos um em cada terminal.
 
 Iniciando a aplicação
 ```
